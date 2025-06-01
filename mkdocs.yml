@@ -1,0 +1,59 @@
+
+site_name: CHAP: Climate & Health Analytics Platform
+site_url: https://dhis2-chap.github.io
+repo_url: https://github.com/dhis2-chap/chap
+
+theme:
+  name: material
+  logo: assets/chap-logo.png
+  favicon: assets/chap-favicon.ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: teal
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: teal
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - toc.integrate
+    - content.code.annotate
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+  - Platform Overview:
+      - What is CHAP?: overview/index.md
+      - Frontend Modeling App (DHIS2): overview/frontend.md
+      - Backend Modeling Platform (Python): overview/backend.md
+      - Climate Data Integration App: overview/climate_app.md
+  - For Researchers:
+      - Getting Started Guide: researchers/getting_started.md
+      - Minimal Example (R): researchers/minimal_r.md
+      - Evaluation Metrics: researchers/metrics.md
+      - Model Contribution Guide: researchers/contribution.md
+  - Publications & Models:
+      - Published Models: publications/models.md
+      - Research Publications: publications/publications.md
+  - About: about.md
+  - GitHub: https://github.com/dhis2-chap
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
