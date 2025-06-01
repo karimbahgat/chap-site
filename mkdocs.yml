@@ -44,7 +44,6 @@ nav:
 
 plugins:
   - search
-  - git-revision-date-localized
 
 extra_css:
   - assets/stylesheets/extra.css
