@@ -1,7 +1,7 @@
 
-site_name: CHAP: Climate & Health Analytics Platform
-site_url: https://dhis2-chap.github.io
-repo_url: https://github.com/dhis2-chap/chap
+site_name: Climate & Health Analytics Platform (Chap)
+site_url: https://karimbahgat.github.io/chap-site
+repo_url: https://github.com/karimbahgat/chap-site
 
 theme:
   name: material
