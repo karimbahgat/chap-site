@@ -1,12 +1,12 @@
 
 site_name: Climate & Health Analytics Platform (Chap)
 site_url: https://karimbahgat.github.io/chap-site
-repo_url: https://github.com/karimbahgat/chap-site
+repo_url: https://github.com/dhis2-chap
 
 theme:
   name: material
-  logo: assets/chap-logo.png
-  favicon: assets/chap-favicon.ico
+  logo: assets/images/chap-logo.png
+  favicon: assets/images/chap-logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -27,23 +27,26 @@ theme:
 nav:
   - Home: index.md
   - Platform Overview:
-      - What is CHAP?: overview/index.md
-      - Frontend Modeling App (DHIS2): overview/frontend.md
-      - Backend Modeling Platform (Python): overview/backend.md
-      - Climate Data Integration App: overview/climate_app.md
+      - Modeling Platform: overview/modeling_platform.md
+      - Modeling App (DHIS2): overview/modeling_app.md
+      - Climate App (DHIS2): overview/climate_app.md
   - For Researchers:
       - Getting Started Guide: researchers/getting_started.md
       - Minimal Example (R): researchers/minimal_r.md
       - Evaluation Metrics: researchers/metrics.md
-      - Model Contribution Guide: researchers/contribution.md
-  - Publications & Models:
-      - Published Models: publications/models.md
-      - Research Publications: publications/publications.md
-  - About: about.md
-  - GitHub: https://github.com/dhis2-chap
+  - Models:
+      - Climate Health Models: models/models.md
+      - List Your Model: models/contribute_model.md
+  - About: 
+      - What is Chap?: about/index.md
+      - Motivation: about/motivation.md
+      - Roadmap: about/roadmap.md
+      - Meet the team: about/team.md
+      - Climate Health Network: about/network.md
 
 plugins:
   - search
+  - mkdocs-video
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -51,8 +54,15 @@ extra_css:
 markdown_extensions:
   - admonition
   - codehilite
-  - toc:
-      permalink: true
+  - attr_list
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - toc:
+      permalink: true
