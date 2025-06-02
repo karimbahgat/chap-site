@@ -1,4 +1,4 @@
-# Promote your climate health modeling research through CHAP
+# Promote your climate health modeling research through Chap
 
 Have you successfully published a scientific paper on climate health modelling and want to broaden the reach of your developed modelling approach? 
 If so, the Chap platform is here for you!

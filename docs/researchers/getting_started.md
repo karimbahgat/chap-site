@@ -6,11 +6,11 @@ If you're an epidemiologist with basic R or Python skills, Chap is designed for 
 
     Read more about [the benefits and requirements](/models/contribute_model.md) of making your model Chap compatible.
 
-Start with our [minimalist example in R](https://github.com/dhis2-chap/minimalist_example_r/tree/main) and follow our guide to integrate your model into CHAP.
+Start with our [minimalist example in R](https://github.com/dhis2-chap/minimalist_example_r/tree/main) and follow our guide to integrate your model into Chap.
 
 You only need to:
 
 1. Read a CSV
 2. Output predictions
 
-CHAP takes care of the rest — validation, tuning, plots, and more.
+Chap takes care of the rest — validation, tuning, plots, and more.
