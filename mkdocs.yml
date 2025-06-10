@@ -34,6 +34,7 @@ nav:
       - Getting Started Guide: researchers/getting_started.md
       - Minimal Example (R): researchers/minimal_r.md
       - Evaluation Metrics: researchers/metrics.md
+      - Need Help?: researchers/support.md
   - Models:
       - Find a Model: models/models/index.md
       - Add Your Own Model: models/contribute_model.md
@@ -50,6 +51,7 @@ plugins:
   - gen-files:
       scripts:
         - docs/scripts/gen_model_gallery.py
+        - docs/scripts/gen_team_gallery.py
 
 extra_css:
   - assets/stylesheets/extra.css

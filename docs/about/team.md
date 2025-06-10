@@ -1,3 +1,0 @@
-# The team
-
-List of team members coming soon... 

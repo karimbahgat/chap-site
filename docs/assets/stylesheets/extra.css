@@ -33,3 +33,14 @@
 .status-gray {
   background-color: gray;
 }
+
+.team-member-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-member-photo {
+  width: 31%;
+  float: left;
+  margin: 5px;
+}

@@ -1,1 +1,3 @@
+# ignore auto/script generated files
 docs/models/models/*.md
+docs/about/team.md
