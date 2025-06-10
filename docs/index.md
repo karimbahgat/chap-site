@@ -1,11 +1,11 @@
-# Chap: Climate & Health Analytics Platform
+# Chap - The Climate & Health Analytics Platform
 
-## The central platform for climate health modeling in the world
+## Our Goal: To be the central platform for climate health modeling in the world
 
 Chap (Climate Health Analytics Platform) brings together climate health models into a unified ecosystem, connecting researchers and cutting-edge epidimiological models to policy makers and health practitioners. It makes complex modeling workflows accessible, automates rigorous validation, and integrates directly with DHIS2, the world's leading health information system.
 
-[Get Started for Researchers](researchers/getting_started.md){ .md-button .md-button--primary }
-[Get Started for Developers](researchers/getting_started.md){ .md-button .md-button--primary }
+[Get Started for Modelers](researchers/getting_started.md){ .md-button .md-button--primary }
+[Get Started for Developers](https://dhis2-chap.github.io/chap-core/){ .md-button .md-button--primary }
 
 Check out the launch video from November 2024:
 

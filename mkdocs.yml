@@ -30,14 +30,14 @@ nav:
       - Modeling Platform: overview/modeling_platform.md
       - Modeling App (DHIS2): overview/modeling_app.md
       - Climate App (DHIS2): overview/climate_app.md
-  - For Researchers:
+  - For Modelers:
       - Getting Started Guide: researchers/getting_started.md
       - Minimal Example (R): researchers/minimal_r.md
       - Evaluation Metrics: researchers/metrics.md
   - Models:
-      - Climate Health Models: models/models.md
-      - List Your Model: models/contribute_model.md
-  - About: 
+      - Find a Model: models/models/index.md
+      - Add Your Own Model: models/contribute_model.md
+  - About:
       - What is Chap?: about/index.md
       - Motivation: about/motivation.md
       - Roadmap: about/roadmap.md
@@ -47,6 +47,9 @@ nav:
 plugins:
   - search
   - mkdocs-video
+  - gen-files:
+      scripts:
+        - docs/scripts/gen_model_gallery.py
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -55,6 +58,7 @@ markdown_extensions:
   - admonition
   - codehilite
   - attr_list
+  - md_in_html
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.details
@@ -64,5 +68,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.blocks.caption
   - toc:
       permalink: true
