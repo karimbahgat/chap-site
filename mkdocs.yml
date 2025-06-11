@@ -27,7 +27,8 @@ theme:
 nav:
   - Home: index.md
   - Platform Overview:
-      - Modeling Platform: overview/modeling_platform.md
+      - Overview: overview/index.md
+      - Chap Modeling Platform: overview/modeling_platform.md
       - Modeling App (DHIS2): overview/modeling_app.md
       - Climate App (DHIS2): overview/climate_app.md
   - For Modelers:

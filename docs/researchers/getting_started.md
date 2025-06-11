@@ -1,6 +1,6 @@
 # Getting Started for Modelers
 
-If you're an epidemiologist/modeler with basic R or Python skills, Chap is designed for you. 
+If you're an epidemiologist or statistical modeler with basic R or Python skills, Chap is designed for you. 
 
 !!! note
 
