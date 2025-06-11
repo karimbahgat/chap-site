@@ -1,3 +1,4 @@
 # ignore auto/script generated files
+# actually, if we ignore files then they wont be copied during deployment process
 #docs/models/models/*.md
 #docs/about/team.md

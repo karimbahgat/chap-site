@@ -20,20 +20,9 @@ MEMBER_CARD_TEMPLATE = """
     {name}
 
     ---
-  
+
     {roles}
 """
-
-# MEMBER_CARD_TEMPLATE = """
-# -   :material-clock-fast:{{ .lg .middle }} __Set up in 5 minutes__
-
-#     ---
-
-#     Install [`mkdocs-material`](#) with [`pip`](#) and get up
-#     and running in minutes
-
-#     [:octicons-arrow-right-24: Getting started](#)
-# """
 
 DEFAULT_PHOTO_URL = 'https://cdn-icons-png.flaticon.com/512/3686/3686930.png'
 

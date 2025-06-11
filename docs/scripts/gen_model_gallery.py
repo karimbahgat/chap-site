@@ -3,8 +3,13 @@ from pathlib import Path
 import yaml
 import requests
 
-models_dir = Path("docs/models/models")
-index_path = "models/models/index.md"
+# input paths
+cur_dir = Path(__file__).parent
+model_catalog_path = cur_dir.parent / 'models' / 'model_catalog.yml'
+
+# output dirs (mkdocs internal file system handling, relative paths) 
+output_models_dir = Path('models/models')
+output_index_path = output_models_dir / 'index.md'
 
 MODEL_LIST_TEMPLATE = """
 # Chap Model Catalogue
@@ -85,7 +90,7 @@ def get_model_info(github_url, commit_or_branch):
     resp = requests.get(url)
     resp.raise_for_status()
     model_info = yaml.safe_load(resp.content)
-    print(model_info)
+    #print(model_info)
     model_info.update(model_info.get('meta_data', {})) # move metadata to toplevel
     return model_info
 
@@ -139,7 +144,7 @@ def generate_model_card_content(model_info):
     return card
 
 # read the model catalog entries
-with open(models_dir.parent / 'model_catalog.yml') as fobj:
+with open(model_catalog_path) as fobj:
     model_refs = yaml.safe_load(fobj)
 
 # loop and all fetch model data
@@ -168,20 +173,19 @@ key = lambda info: status_to_int[
                         info['meta_data'].get('author_assessed_status', 'red')
                     ]
 models = sorted(models, key=key)
-#for m in models:
-#    print(m['name'], key(m))
 
 # loop and process each model
 cards = ""
 for model_info in models:
-    print(model_info)
+    #print(model_info)
     
     # generate markdown content from model_info
     model_md = generate_model_page_content(model_info)
 
     # write to file
-    model_md_path = models_dir / f"{model_info['name']}.md"
-    with open(model_md_path, 'w') as fobj:
+    model_md_path = output_models_dir / f"{model_info['name']}.md"
+    with mkdocs_gen_files.open(model_md_path, 'w') as fobj:
+        print('writing model page to path', model_md_path)
         fobj.write(model_md)
 
     # add link to model index
@@ -189,5 +193,6 @@ for model_info in models:
     cards += card_md
 
 # write model list index page
-with mkdocs_gen_files.open(index_path, 'w') as f:
+with mkdocs_gen_files.open(output_index_path, 'w') as f:
+    print('writing index page to path', output_index_path)
     f.write(MODEL_LIST_TEMPLATE.format(cards=cards))
