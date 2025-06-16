@@ -1,0 +1,39 @@
+
+- name: Knut Rand
+  roles: Modeling, platform development
+
+- name: Ivar Grytten
+  roles: Platform development, coordination
+
+- name: Ingerid Huus-Hansen
+  roles: Project coordinator
+
+- name: Geir Kjetil Sandve
+  roles: Strategy, coordination, platform development
+
+- name: Herman Tretteteig
+  roles: Modeling app, implementation support
+
+- name: Abyot Gizaw
+  roles: Platform development, DHIS2 integration, Nepali calendar support
+
+- name: Karim Bahgat
+  roles: Platform development, Modeling app, communication channels, data integration, geospatial
+
+- name: Eirik Haugstulen
+  roles: Modeling app
+
+- name: Birk Johansson
+  roles: Modeling app
+
+- name: Kai Vandivier
+  roles: Deployment automation, extensibility
+
+- name: Brian O'Donnel
+  roles: Coordination support, implementation, DHIS2 strategic adviser, epidimiologist
+
+- name: Rebecca Potter
+  roles: Strategic advisor
+
+- name: Morten Olav Hansen
+  roles: DevOvs
