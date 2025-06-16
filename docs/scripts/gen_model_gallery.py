@@ -15,6 +15,7 @@ MODEL_LIST_TEMPLATE = """
 # Chap Model Catalogue
 
 Explore our catalogue of user-contributed and published climate health models already made compatible with Chap. 
+These can easily be added and run with the Chap modeling platform (instructions coming soon). 
 
 !!! note "Want to see your own research model here?"
 

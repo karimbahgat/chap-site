@@ -1,6 +1,6 @@
 
-site_name: Climate & Health Analytics Platform (Chap)
-site_url: https://karimbahgat.github.io/chap-site
+site_name: Chap Modeling Platform
+site_url: https://dhis2-chap.github.io/chap-site
 repo_url: https://github.com/dhis2-chap
 
 theme:
@@ -26,11 +26,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Platform Overview:
-      - Overview: overview/index.md
-      - Chap Modeling Platform: overview/modeling_platform.md
-      - Modeling App (DHIS2): overview/modeling_app.md
-      - Climate App (DHIS2): overview/climate_app.md
   - For Modelers:
       - Getting Started Guide: researchers/getting_started.md
       - Minimal Example (R): researchers/minimal_r.md

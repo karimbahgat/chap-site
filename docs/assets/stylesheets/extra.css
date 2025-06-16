@@ -44,3 +44,8 @@
   float: left;
   margin: 5px;
 }
+
+.tool-card-photo {
+  max-height: 300px;
+  object-fit: fill;
+}

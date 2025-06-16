@@ -1,15 +1,50 @@
-# Chap - The Climate & Health Analytics Platform
+# Chap - The Climate & Health Modeling Platform
 
 ## Our Goal: To be the central platform for climate health modeling in the world
 
-Chap (Climate Health Analytics Platform) brings together climate health models into a unified ecosystem, connecting researchers and cutting-edge epidimiological models to policy makers and health practitioners. It makes complex modeling workflows accessible, automates rigorous validation, and integrates directly with DHIS2, the world's leading health information system.
+Chap is a Climate & Health Modeling Platform that brings together climate health models into a unified ecosystem, connecting researchers and cutting-edge epidimiological models to policy makers and health practitioners. It makes complex modeling workflows accessible, automates rigorous validation, and integrates directly with DHIS2, the world's leading health information system.
 
 [Get Started for Modelers](researchers/getting_started.md){ .md-button .md-button--primary }
 [Get Started for Developers](https://dhis2-chap.github.io/chap-core/){ .md-button .md-button--primary }
+[Connect with the Community](https://community.dhis2.org/t/about-the-chap-modeling-category/61403){ .md-button .md-button--primary }
 
 Check out the launch video from November 2024:
 
 ![type:video](https://www.youtube.com/embed/NQ37g8YbVyE?si=KOgC4RAJxQZqUEPv)
+
+## Key Resources
+
+The Chap modeling platform builds on and integrates with several resources and applications that supports its use. 
+
+<div class="grid cards" markdown>
+
+-   Chap Core
+
+    ```bash
+    chap evaluate --model-name https://github.com/dhis2-chap/chap_auto_ewars --dataset-name ISIMIP_dengue_harmonized --dataset-country brazil
+    ```
+
+    Chap Core is the core processing engine written in Python that handles model orchestration, data pipelines, validation, metrics, and hyperparameter tuning. Chap Core supports streamlined integration with the DHIS2 system for accessing health data and disseminating forecasts, but is also fully functional as a stand-alone Python package and commandline tool.
+
+    [View on Github](https://github.com/dhis2-chap/chap-core){ .md-button .md-button--primary } 
+
+-   Modeling App
+
+    ![Modeling App](assets/images/modeling-app.png){.tool-card-photo}
+
+    The Modeling App allows users to run models directly within DHIS2. It provides a UI interface for configuring inputs and visualizing predictions at national and subnational levels.
+
+    [View on Github](https://github.com/dhis2-chap/chap-frontend-monorepo){ .md-button .md-button--primary }
+
+-   Climate App
+
+    ![Climate App](assets/images/climate-app.png){.tool-card-photo}
+
+    The climate app integrates and harmonizes gridded climate data (e.g., rainfall, temperature) into DHIS2-compatible formats, supporting the need for climate and environmental covariates in the Chap modeling platform.
+
+    [View on Github](https://github.com/dhis2-chap/climate-app){ .md-button .md-button--primary } 
+
+</div>
 
 ## Please join us!
 
