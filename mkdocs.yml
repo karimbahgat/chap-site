@@ -32,8 +32,8 @@ nav:
       - Evaluation Metrics: researchers/metrics.md
       - Need Help?: researchers/support.md
   - Models:
-      - Find a Model: models/models/index.md
-      - Add Your Own Model: models/contribute_model.md
+      - Adding Your Own Model: models/contribute_model.md
+      - Explore Model Contributions: models/models/index.md
   - About:
       - What is Chap?: about/index.md
       - Motivation: about/motivation.md

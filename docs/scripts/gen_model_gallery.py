@@ -19,7 +19,7 @@ These can easily be added and run with the Chap modeling platform (instructions 
 
 !!! note "Want to see your own research model here?"
 
-    [See the benefits and requirements](contribute_model.md) of contributing your own climate health model into the Chap platform. 
+    [See the benefits and requirements](../contribute_model.md) of contributing your own climate health model into the Chap platform. 
 
 ---
 
