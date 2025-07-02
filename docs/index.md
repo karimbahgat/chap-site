@@ -8,9 +8,9 @@ Chap is a Climate & Health Modeling Platform that brings together climate health
 [Get Started for Developers](https://dhis2-chap.github.io/chap-core/){ .md-button .md-button--primary }
 [Connect with the Community](https://community.dhis2.org/t/about-the-chap-modeling-category/61403){ .md-button .md-button--primary }
 
-Check out the launch video from November 2024:
+Check out this presentation on Chap and the Modeling App, from the DHIS2 Annual Conference 2025:
 
-![type:video](https://www.youtube.com/embed/NQ37g8YbVyE?si=KOgC4RAJxQZqUEPv)
+![type:video](https://www.youtube.com/embed/aa1EfSuCUQ0?si=CdYA-ZtkooX3lfUC)
 
 ## Key Resources
 
