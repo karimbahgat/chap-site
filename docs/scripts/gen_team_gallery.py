@@ -9,6 +9,11 @@ team_list_path = "about/team.md"
 TEAM_LIST_TEMPLATE = """
 # The Team
 
+The Chap Modeling Platform is developed by a core team at the [HISP Oslo office](https://www.mn.uio.no/hisp/english/about/). 
+Additional support is provided by members of the broader [HISP climate and health team](https://www.mn.uio.no/hisp/english/research/hisp-climate-and-health-team.html), 
+as well as members from various country HISP offices. 
+The core team includes, in alphabetical order: 
+
 <div class="grid cards" markdown>
 {cards}
 </div>

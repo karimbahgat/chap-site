@@ -19,7 +19,7 @@ These can easily be added and run with the Chap modeling platform (instructions 
 
 !!! note "Want to see your own research model here?"
 
-    [See the benefits and requirements](../contribute_model.md) of contributing your own climate health model into the Chap platform. 
+    [See our getting started guide](../../guides/contribute_model.md) for contributing your own climate health model into the Chap platform. 
 
 ---
 
@@ -53,6 +53,8 @@ MODEL_PAGE_TEMPLATE = """
 **Developed by:** {organization}
 
 **Contact:** [{contact_email}](mailto:{contact_email})
+
+**Source URL:** [{url}]({url})
 
 !!! warning Deprecated
 
@@ -154,9 +156,10 @@ for model_ref in model_refs:
     print(model_ref)
 
     # get model info
-    last_version = list(model_ref['versions'].values())[-1]
+    last_version = list(model_ref['versions'].values())[-1] # use last version only
     try:
         model_info = get_model_info(model_ref['url'], last_version)
+        model_info.update(model_ref)
         models.append(model_info)
     except Exception as err:
         print(f'!!! Error getting model metadata, excluded from list of models: {err}')

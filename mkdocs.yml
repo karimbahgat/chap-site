@@ -10,12 +10,12 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: teal
+      primary: green
+      accent: green
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
-      accent: teal
+      primary: green
+      accent: green
   features:
     - navigation.instant
     - navigation.sections
@@ -26,20 +26,24 @@ theme:
 
 nav:
   - Home: index.md
-  - For Modelers:
-      - Getting Started Guide: researchers/getting_started.md
-      - Minimal Example (R): researchers/minimal_r.md
-      - Evaluation Metrics: researchers/metrics.md
-      - Need Help?: researchers/support.md
+  - Guides:
+      - Introduction: guides/index.md
+      - Model Development:
+        - Creating Your Model: guides/contribute_model.md
+        - Configuring Your Model: guides/configure_model.md
+        - Loading Your Model into Chap: guides/loading_model.md
+      - Model Evaluation:
+        - Evaluation Metrics: guides/metrics.md
+      - Need Help?: 
+        - Support: guides/support.md
   - Models:
-      - Adding Your Own Model: models/contribute_model.md
-      - Explore Model Contributions: models/models/index.md
+      - Supported Models: models/models/index.md
   - About:
       - What is Chap?: about/index.md
       - Motivation: about/motivation.md
-      - Roadmap: about/roadmap.md
       - Meet the team: about/team.md
-      - Climate Health Network: about/network.md
+      - Partners: about/partners.md
+      - Roadmap: about/roadmap.md
 
 plugins:
   - search

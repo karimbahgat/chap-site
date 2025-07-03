@@ -4,7 +4,7 @@
 
 Chap is a Climate & Health Modeling Platform that brings together climate health models into a unified ecosystem, connecting researchers and cutting-edge epidimiological models to policy makers and health practitioners. It makes complex modeling workflows accessible, automates rigorous validation, and integrates directly with DHIS2, the world's leading health information system.
 
-[Get Started for Modelers](researchers/getting_started.md){ .md-button .md-button--primary }
+[Get Started for Modelers](guides/contribute_model.md){ .md-button .md-button--primary }
 [Get Started for Developers](https://dhis2-chap.github.io/chap-core/){ .md-button .md-button--primary }
 [Connect with the Community](https://community.dhis2.org/t/about-the-chap-modeling-category/61403){ .md-button .md-button--primary }
 
