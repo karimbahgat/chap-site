@@ -24,7 +24,7 @@
   photo: ../assets/images/team/abyot.png
 
 - name: Karim Bahgat
-  roles: Platform development, Modeling app, communication channels, data integration, GIS
+  roles: Platform development, Modeling app, data integration, GIS, Chap website
   photo: ../assets/images/team/karim.png
 
 - name: Eirik Haugstulen
@@ -40,7 +40,7 @@
   photo: ../assets/images/team/kai.png
 
 - name: Brian O'Donnel
-  roles: Coordination support, implementation, DHIS2 strategic adviser, epidimiologist
+  roles: Coordination support, implementation, DHIS2 strategic adviser, epidimiologist, Chap website
   photo: ../assets/images/team/brian.png
 
 - name: Rebecca Potter
@@ -50,3 +50,7 @@
 - name: Morten Olav Hansen
   roles: DevOps, Docker
   photo: ../assets/images/team/morten.png
+
+- name: Ruvinda Jayewardena
+  roles: Sri Lanka coordination, air quality, use-case documentation
+  photo: https://dhis2.b-cdn.net/user_avatar/community.dhis2.org/ruvinda_jayewardene/288/44961_2.png

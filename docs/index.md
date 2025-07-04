@@ -52,7 +52,7 @@ We strive to make all parts of the project development open and transparent, so 
 
 If you are interested in joining this effort, there are several options:
 
-- If you have developed and published a climate and health model, we offer to [help disseminate your model](models/contribute_model.md) and publication on our website and network. 
+- If you have developed and published a climate and health model, we offer to [help disseminate your model](guides/contribute_model.md) and publication on our website and network. 
 - If you mainly want to get updates and news about what is happening, please join our [Chap email list](https://sympa.uio.no/hisp.uio.no/subscribe/chap-updates)
 - If you want to contribute with code development or model development, a good place to start is the [chap-core github repository](https://github.com/dhis2-chap/chap-core). Please [read the documentation](https://dhis2-chap.github.io/chap-core/) before reaching out to us with questions, and feel free to look into any of the [open Github issues](https://github.com/orgs/dhis2-chap/projects/4/views/3). We are happy to take code contributions related to these. Use the Github issues system for inquiries. 
 - For developers interested in front-end development, the [chap monorepo repository](https://github.com/dhis2-chap/chap-frontend-monorepo) might be more relevant as a starting-point.
